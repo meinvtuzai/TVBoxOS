@@ -140,6 +140,8 @@
 -dontwarn com.kingja.loadsir.**
 -keep class com.kingja.loadsir.** {*;}
 #gson
+#支持熊大为影视做的jar
+-keep class com.google.gson.**{*;}
 # Gson specific classes
 -dontwarn sun.misc.**
 #-keep class com.google.gson.stream.** { *; }
